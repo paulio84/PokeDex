@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Roboto&display=swap');
+.PokeCard {
+  border: 1px solid grey;
+  border-radius: 10px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.PokeCard__details {
+  background-color: lightgrey;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 10px 0;
+}
+
+.PokeCard__img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: auto;
+  transition: all 0.2s ease;
+  max-width: 90%;
+}
+
+.PokeCard:hover .PokeCard__img {
+  transform: scale(1.05);
+}
+
+.PokeCard__name, .PokeCard__type, .PokeCard__xp {
+  margin: 10px 0;
+}
+
+.PokeCard__name {
+  font-family: 'Hammersmith One', sans-serif;
+}
+
+.PokeCard__xp {
+  color: #0077aa;
+  font-weight: 700;
+  margin: 0;
+  padding-bottom: 10px;
+}

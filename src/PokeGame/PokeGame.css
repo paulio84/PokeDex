@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+.PokeGame {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto, sans-serif;
+  height: 100%;
+  justify-content: space-evenly;
+}

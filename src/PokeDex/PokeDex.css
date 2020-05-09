@@ -1,0 +1,20 @@
+.PokeDex {
+  /* flex-grow: 1; */
+  text-align: center;
+}
+
+.PokeDex__winner {
+  color: green;
+  margin: 0;
+}
+
+.PokeDex__loser {
+  color: red;
+  margin: 0;
+}
+
+.PokeDex__cards {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
